@@ -1,6 +1,7 @@
 from source.entity.config_entity import TrainingPipelineConfig
 from source.pipeline.training_pipeline import TrainPipeline
 from source.utility.utility import generate_global_timestamp
+import pandas as pd
 from source.logger import setup_logger
 
 if __name__ == '__main__':
